@@ -1,0 +1,13 @@
+AUTHOR = "Cleber Rosa <cleber@redhat.com>"
+NAME = "autotest_rpc_server"
+TIME = "MEDIUM"
+TEST_CLASS = "Autotest"
+TEST_CATEGORY = "Functional"
+TEST_TYPE = "client"
+DOC = """
+Runs a series of tests in the autotest source tree. The goal is to regularly
+test the general state of the autotest source tree, unittests, static checking
+and some amount of sanity functionality checking.
+"""
+
+job.run_test('autotest_rpc_server')
